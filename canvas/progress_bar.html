@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <style>
+        #progress {
+            width: 100%;
+            background-color: rgb(168, 167, 167);
+        }
+        #my-bar{
+            width:1%;
+            height:30px;
+            background-color: rgb(24, 224, 24);
+        }
+
+    </style>
+</head>
+<body>
+    <canvas id="my-canvas"></canvas>
+
+    <button onclick="action()" id="pbar-button">Click to load images</button>
+
+    <div id="to-populate">
+        <img id="get-img">
+    </div>
+
+    <div id="progress">
+        <div id="my-bar">
+            
+        </div>
+    </div>
+    <!-- <br><br>
+    <button onclick="stopChanging()"> Click to stop color change! </button>
+   <br><br>
+    <p id="counter"></p> -->
+    <!-- <button onclick="stopcount()">Click to stop counting</button> -->
+
+    <!-- <script src="pbar.js"></script> -->
+    <!-- <script src="bgcolor.js"></script> -->
+    <!-- <script src="counter.js"></script> -->
+    <script src="imageLoad.js"></script>
+</body>
+</html>
