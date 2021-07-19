@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    
+    <div>
+        <audio id="audio" >
+            <source src="multimedia/sound.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <button id="playBtn" onclick="playPause()">Play &#9658</button>
+    <!-- &nbsp;
+    &nbsp; -->
+    <button id="stopBtn" onclick="stop()">Stop &#9611</button>
+    <div id="volume-controls">
+        <img src="multimedia/volume.png" id="vol_img" width="24px">
+        <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
