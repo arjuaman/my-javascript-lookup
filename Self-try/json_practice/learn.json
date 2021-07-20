@@ -1,0 +1,11 @@
+{
+    "Name":"Arju",
+    "Age":23,
+    "isAdmin":true,
+    "license":null,
+    "shopItem":["pizza","bucket","chicken"],
+    "Uefa":{
+        "away-goals":1,
+        "referee":"Hernandez"
+    }
+}
