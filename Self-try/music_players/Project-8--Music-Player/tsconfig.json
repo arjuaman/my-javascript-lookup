@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                
+    "module": "commonjs",                          
+    "sourceMap": true,  
+    "outDir": "js/main.js",         
+    "rootDir": "js/main.ts",                
+    "esModuleInterop": true,                       
+   "skipLibCheck": true,                          
+    "forceConsistentCasingInFileNames": true        
+  },
+  "include":["js/main.ts"],
+  "exclude":["node_modules"]
+}
