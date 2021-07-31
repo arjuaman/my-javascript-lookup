@@ -1,0 +1,11 @@
+after the initiial setup, go for:
+npm i -D webpack-cli typescript ts-loader css-loader style-loader html-webpack-plugin eslint eslint-webpack-plugin clean-webpack-plugin
+
+npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
+
+tsc --init //for tsconfig file
+
+npx eslint --init
+
+encodeURI spaces hatake special characters add kr dega url me
+

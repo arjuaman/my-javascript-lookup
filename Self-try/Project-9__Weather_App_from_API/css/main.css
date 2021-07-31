@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+* {
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(90deg, #7596f1 0%,
+            #f39277 50%,
+            #f8bb1f 100%);
+}
+
+input {
+    background-color: white;
+}
+
+h1 {
+    font-family: "Dancing Script", "Noto Serif", "sans-serif";
+    font-size: 36pt;
+}
+
+
+h3 {
+    text-decoration: underline;
+    font-family: 'Dosis', sans-serif;
+    font-size: 26pt;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: "Comic Sans MS";
+    font-size: 18pt;
+}
+
+#location-details-wrapper{
+    float: left;
+}
+
+#current-stats-wrapper{
+    float: right;
+}
