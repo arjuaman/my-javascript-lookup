@@ -17,6 +17,7 @@ function runTheGame() {
 
     if (attempt === -1) {
         inputTag.value = "";
+        // inputTag.focus(); only accessible to form tags
         highOrLow.innerText = "";
         verdict.innerText = "";
         inputTag.disabled = false;
