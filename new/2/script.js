@@ -49,6 +49,7 @@ function runTheGame() {
             inputTag.disabled = true;
             submit.disabled = true;
             verdict.innerText = "Congratulations! You got it right!";
+            verdict.style.backgroundColor = 'green';
             newGame.innerHTML = "<button id='startAgain'>Start new game</button>";
 
             const restartBtn = document.getElementById("startAgain");
@@ -59,9 +60,11 @@ function runTheGame() {
         } else if (input < target) {
             // Previous guesses: 50
             verdict.innerText = "Wrong!";
+            verdict.style.backgroundColor = 'red';
             highOrLow.innerText = "Last guess was too low!";
         } else {
             verdict.innerText = "Wrong!";
+            verdict.style.backgroundColor = 'red';
             highOrLow.innerText = "Last guess was too high!";
         }
     }
